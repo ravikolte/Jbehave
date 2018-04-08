@@ -14,7 +14,7 @@ public class UILoginsteps extends Steps{
 	@Given("I am at login page")
 	public void openBrowser()
 	{
-	   System.setProperty("webdriver.chrome.driver", "C:/Users/Ravi/Desktop/Bhanu/testprojectcuc/JbehaveDemo/drivers/chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "C:/Users/Ravi/Jbehave/JbehaveDemo/drivers/chromedriver.exe");
 	   driver = new ChromeDriver();
 	  driver.get("https://www.google.com");
 	                 
